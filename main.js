@@ -17,6 +17,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _angular_flex_layout_flex__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @angular/flex-layout/flex */ "XiUz");
 /* harmony import */ var _angular_material_progress_spinner__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @angular/material/progress-spinner */ "Xa2L");
 /* harmony import */ var _angular_material_button__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @angular/material/button */ "bTqV");
+/* harmony import */ var _angular_material_card__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! @angular/material/card */ "Wp6s");
+/* harmony import */ var _angular_common__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! @angular/common */ "ofXK");
 
 
 
@@ -24,6 +26,47 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
+
+
+function CurrentTrainingComponent_img_18_Template(rf, ctx) { if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](0, "img", 13);
+} }
+function CurrentTrainingComponent_img_19_Template(rf, ctx) { if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](0, "img", 14);
+} }
+function CurrentTrainingComponent_img_20_Template(rf, ctx) { if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](0, "img", 15);
+} }
+function CurrentTrainingComponent_img_21_Template(rf, ctx) { if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](0, "img", 16);
+} }
+function CurrentTrainingComponent_img_22_Template(rf, ctx) { if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](0, "img", 17);
+} }
+function CurrentTrainingComponent_img_23_Template(rf, ctx) { if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](0, "img", 18);
+} }
+function CurrentTrainingComponent_img_24_Template(rf, ctx) { if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](0, "img", 19);
+} }
+function CurrentTrainingComponent_p_26_Template(rf, ctx) { if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "p");
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+} if (rf & 2) {
+    const ctx_r7 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵnextContext"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate1"](" Benefits of ", ctx_r7.nameOfEx, " : Flexibility.Glowing skin.Strengthening of joints and muscles.Better digestive system.Better mental health.Detoxification and blood circulation. ");
+} }
+function CurrentTrainingComponent_p_27_Template(rf, ctx) { if (rf & 1) {
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "p");
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+} if (rf & 2) {
+    const ctx_r8 = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵnextContext"]();
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](1);
+    _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate1"](" Benefits of ", ctx_r8.nameOfEx, " : Strengthens the spine.Stretches chest and lungs, shoulders, and abdomen.Tones the buttocks.Stimulates abdominal organs.Helps relieve stress and fatigue.Opens the heart and lungs.Soothes sciatica.Therapeutic for asthma. ");
+} }
 class CurrentTrainingComponent {
     constructor(dialog, trainingService) {
         this.dialog = dialog;
@@ -64,7 +107,7 @@ class CurrentTrainingComponent {
     }
 }
 CurrentTrainingComponent.ɵfac = function CurrentTrainingComponent_Factory(t) { return new (t || CurrentTrainingComponent)(_angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdirectiveInject"](_angular_material_dialog__WEBPACK_IMPORTED_MODULE_2__["MatDialog"]), _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdirectiveInject"](_training_service__WEBPACK_IMPORTED_MODULE_3__["TrainingService"])); };
-CurrentTrainingComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineComponent"]({ type: CurrentTrainingComponent, selectors: [["app-current-training"]], decls: 10, vars: 4, consts: [["fxLayout", "column", "fxLayoutAlign", "center center", 1, "current-training"], ["mode", "determinate", 3, "value"], ["mat-raised-button", "", 3, "click"]], template: function CurrentTrainingComponent_Template(rf, ctx) { if (rf & 1) {
+CurrentTrainingComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵdefineComponent"]({ type: CurrentTrainingComponent, selectors: [["app-current-training"]], decls: 28, vars: 14, consts: [["fxLayout", "column", "fxLayoutAlign", "center center", 1, "current-training"], ["mode", "determinate", 3, "value"], ["mat-raised-button", "", 3, "click"], [1, "example-card"], ["mat-card-avatar", "", 1, "example-header-image"], ["mat-card-image", "", "width", "100", "height", "600", "src", "https://thumbs.gfycat.com/MarriedHairyEagle-max-1mb.gif", "alt", "Photo", 4, "ngIf"], ["mat-card-image", "", "width", "100", "height", "600", "src", "https://seven.app/media/images/Crunches.gif", "alt", "Photo", 4, "ngIf"], ["mat-card-image", "", "width", "100", "height", "600", "src", "https://thumbs.gfycat.com/FondAntiqueCuckoo-size_restricted.gif", "alt", "Photo", 4, "ngIf"], ["mat-card-image", "", "width", "100", "height", "600", "src", "https://personaltrainer.ebhasin.com/upload/Bhujangasana.gif", "alt", "Photo", 4, "ngIf"], ["mat-card-image", "", "width", "100", "height", "600", "src", "https://yogavimoksha.com/wp-content/uploads/2016/08/trikonasana-1170x630.jpg", "alt", "Photo", 4, "ngIf"], ["mat-card-image", "", "width", "100", "height", "600", "src", "https://images.twinkl.co.uk/tr/image/upload/illustation/Touch-Your-Toes---Body-Parts-Actions-EYFS.png", "alt", "Photo", 4, "ngIf"], ["mat-card-image", "", "width", "100", "height", "600", "src", "https://i.pinimg.com/originals/aa/8c/a8/aa8ca8f1248688e9d197bc58651b0feb.gif", "alt", "Photo", 4, "ngIf"], [4, "ngIf"], ["mat-card-image", "", "width", "100", "height", "600", "src", "https://thumbs.gfycat.com/MarriedHairyEagle-max-1mb.gif", "alt", "Photo"], ["mat-card-image", "", "width", "100", "height", "600", "src", "https://seven.app/media/images/Crunches.gif", "alt", "Photo"], ["mat-card-image", "", "width", "100", "height", "600", "src", "https://thumbs.gfycat.com/FondAntiqueCuckoo-size_restricted.gif", "alt", "Photo"], ["mat-card-image", "", "width", "100", "height", "600", "src", "https://personaltrainer.ebhasin.com/upload/Bhujangasana.gif", "alt", "Photo"], ["mat-card-image", "", "width", "100", "height", "600", "src", "https://yogavimoksha.com/wp-content/uploads/2016/08/trikonasana-1170x630.jpg", "alt", "Photo"], ["mat-card-image", "", "width", "100", "height", "600", "src", "https://images.twinkl.co.uk/tr/image/upload/illustation/Touch-Your-Toes---Body-Parts-Actions-EYFS.png", "alt", "Photo"], ["mat-card-image", "", "width", "100", "height", "600", "src", "https://i.pinimg.com/originals/aa/8c/a8/aa8ca8f1248688e9d197bc58651b0feb.gif", "alt", "Photo"]], template: function CurrentTrainingComponent_Template(rf, ctx) { if (rf & 1) {
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](0, "section", 0);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](1, "mat-progress-spinner", 1);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](2, "h2");
@@ -80,6 +123,29 @@ CurrentTrainingComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵ�
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵlistener"]("click", function CurrentTrainingComponent_Template_button_click_8_listener() { return ctx.onStop(); });
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](9, " Stop ");
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](10, "hr");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](11, "mat-card", 3);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](12, "mat-card-header");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelement"](13, "div", 4);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](14, "mat-card-title");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](15);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](16, "mat-card-subtitle");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtext"](17, "Yog - For complete expression and divine transformation.");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](18, CurrentTrainingComponent_img_18_Template, 1, 0, "img", 5);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](19, CurrentTrainingComponent_img_19_Template, 1, 0, "img", 6);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](20, CurrentTrainingComponent_img_20_Template, 1, 0, "img", 7);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](21, CurrentTrainingComponent_img_21_Template, 1, 0, "img", 8);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](22, CurrentTrainingComponent_img_22_Template, 1, 0, "img", 9);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](23, CurrentTrainingComponent_img_23_Template, 1, 0, "img", 10);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](24, CurrentTrainingComponent_img_24_Template, 1, 0, "img", 11);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementStart"](25, "mat-card-content");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](26, CurrentTrainingComponent_p_26_Template, 2, 1, "p", 12);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtemplate"](27, CurrentTrainingComponent_p_27_Template, 2, 1, "p", 12);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵelementEnd"]();
     } if (rf & 2) {
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](1);
@@ -88,7 +154,27 @@ CurrentTrainingComponent.ɵcmp = _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵ�
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate2"]("Duration of ", ctx.nameOfEx, ": ", ctx.durationOfEx, "");
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](2);
         _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate1"]("", ctx.progress, " %");
-    } }, directives: [_angular_flex_layout_flex__WEBPACK_IMPORTED_MODULE_4__["DefaultLayoutDirective"], _angular_flex_layout_flex__WEBPACK_IMPORTED_MODULE_4__["DefaultLayoutAlignDirective"], _angular_material_progress_spinner__WEBPACK_IMPORTED_MODULE_5__["MatProgressSpinner"], _angular_material_button__WEBPACK_IMPORTED_MODULE_6__["MatButton"]], styles: [".current-training[_ngcontent-%COMP%] {\r\n    padding: 30px;\r\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImN1cnJlbnQtdHJhaW5pbmcuY29tcG9uZW50LmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtJQUNJLGFBQWE7QUFDakIiLCJmaWxlIjoiY3VycmVudC10cmFpbmluZy5jb21wb25lbnQuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiLmN1cnJlbnQtdHJhaW5pbmcge1xyXG4gICAgcGFkZGluZzogMzBweDtcclxufSJdfQ== */"] });
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](10);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵtextInterpolate"](ctx.nameOfEx);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](3);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("ngIf", ctx.nameOfEx === "Surya namaskar");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("ngIf", ctx.nameOfEx === "crunches");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("ngIf", ctx.nameOfEx === "burpees");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("ngIf", ctx.nameOfEx === "Bhujangasana");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("ngIf", ctx.nameOfEx === "Kona-sana (Side lunges)");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("ngIf", ctx.nameOfEx === "touch toes");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("ngIf", ctx.nameOfEx === "Yogic Jogging 1");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](2);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("ngIf", ctx.nameOfEx === "Surya namaskar");
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵadvance"](1);
+        _angular_core__WEBPACK_IMPORTED_MODULE_1__["ɵɵproperty"]("ngIf", ctx.nameOfEx === "Bhujangasana");
+    } }, directives: [_angular_flex_layout_flex__WEBPACK_IMPORTED_MODULE_4__["DefaultLayoutDirective"], _angular_flex_layout_flex__WEBPACK_IMPORTED_MODULE_4__["DefaultLayoutAlignDirective"], _angular_material_progress_spinner__WEBPACK_IMPORTED_MODULE_5__["MatProgressSpinner"], _angular_material_button__WEBPACK_IMPORTED_MODULE_6__["MatButton"], _angular_material_card__WEBPACK_IMPORTED_MODULE_7__["MatCard"], _angular_material_card__WEBPACK_IMPORTED_MODULE_7__["MatCardHeader"], _angular_material_card__WEBPACK_IMPORTED_MODULE_7__["MatCardAvatar"], _angular_material_card__WEBPACK_IMPORTED_MODULE_7__["MatCardTitle"], _angular_material_card__WEBPACK_IMPORTED_MODULE_7__["MatCardSubtitle"], _angular_common__WEBPACK_IMPORTED_MODULE_8__["NgIf"], _angular_material_card__WEBPACK_IMPORTED_MODULE_7__["MatCardContent"], _angular_material_card__WEBPACK_IMPORTED_MODULE_7__["MatCardImage"]], styles: [".current-training[_ngcontent-%COMP%] {\r\n    padding: 30px;\r\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImN1cnJlbnQtdHJhaW5pbmcuY29tcG9uZW50LmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtJQUNJLGFBQWE7QUFDakIiLCJmaWxlIjoiY3VycmVudC10cmFpbmluZy5jb21wb25lbnQuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiLmN1cnJlbnQtdHJhaW5pbmcge1xyXG4gICAgcGFkZGluZzogMzBweDtcclxufSJdfQ== */"] });
 
 
 /***/ }),
